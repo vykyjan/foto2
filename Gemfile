@@ -8,6 +8,7 @@ gem 'rails', '3.2.3'
 gem 'sqlite3'
 group :production do
 gem 'mysql2'
+gem 'therubyracer'
 end
 gem 'rmagick'
 gem 'carrierwave'
