@@ -29,3 +29,7 @@ before "deploy:assets:precompile", "bundle:install"
      run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
    end
  end
+
+after "deploy:symlink" do
+  run "chmod -R 0666 #{current_path}/log"
+end

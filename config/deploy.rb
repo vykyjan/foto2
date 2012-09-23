@@ -32,4 +32,5 @@ before "deploy:assets:precompile", "bundle:install"
 
 after "deploy:symlink" do
   run "chmod -R 0666 #{current_path}/log"
+  run "chown -R www-data:www-data #{current_path}/"
 end
