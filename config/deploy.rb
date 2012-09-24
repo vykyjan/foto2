@@ -6,7 +6,7 @@ set :application, "galerie"
 set :domain, '77.93.202.103'
 set :repository,  "https://github.com/vykyjan/foto2.git"
 set :scm,         :git
-set :user,        "root"
+set :user,        "deploy"
 set :use_sudo,    false
 set :deploy_via, :copy
 set :copy_exclude, ['.git']
