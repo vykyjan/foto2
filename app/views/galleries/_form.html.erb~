@@ -14,6 +14,7 @@
 
   <div class="form-actions">
     <%= f.submit "Vytvořit", :class => 'btn btn-mini btn-primary' %>
-    <%= link_to "Zrušit", galleries_path, :class => 'btn btn-mini' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                galleries_path, :class => 'btn btn-mini' %>
   </div>
 <% end %>

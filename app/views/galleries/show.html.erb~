@@ -4,7 +4,7 @@
   <input type="hidden" id="galleryID" value="<%= @gallery.id %>">
 
   <p>
-    <b>Jméno: </b>
+    <b>Galerie: </b>
     <%= @gallery.name %>
   </p>
 
