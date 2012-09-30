@@ -2,7 +2,7 @@ require "bundler/capistrano"
 
 
 
-set :application, "galerie"
+set :application, "farnost"
 set :domain, '37.157.198.135'
 set :repository,  "https://github.com/vykyjan/foto2.git"
 set :scm,         :git
