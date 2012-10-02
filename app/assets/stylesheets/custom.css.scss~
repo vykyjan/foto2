@@ -59,7 +59,7 @@ color: white;
 
 .center4 {
 background-color: #E9fB00;
-height: 120px;
+height: 100px;
 h2{
 
 color: black;
