@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  padding-top: 60px;
+  padding-top: 50px;
 }
 
 section {
@@ -39,21 +39,32 @@ background-color: white;
   }
 }
 .center2 {
-background-color: red;
+background-color: #FF2300;
+
 h2{
 text-align: left;
+color: black;
 }
 }
 
 .center3 {
-background-color: yellow;
+
+background-color: #1533AD;
 h2{
 text-align: right;
+color: white;
 }
+
 }
 
 .center4 {
-background-color: green;
+background-color: #E9fB00;
+height: 120px;
+h2{
+
+color: black;
+}
+
 }
 
 /* typography */
@@ -182,4 +193,17 @@ input, textarea, select, .uneditable-input {
   margin-bottom: 15px;
   @include box_sizing;
 }
+
+#error_explanation {
+  color: #f00;
+  ul {
+    list-style: none;
+    margin: 0 0 18px 0;
+  }
+}
+
+.field_with_errors {
+  @extend .control-group;
+  @extend .error;
+ }
 

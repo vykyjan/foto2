@@ -14,16 +14,18 @@
   <%= link_to "Zaregistrovat nyní", signup_path, class: "btn btn-large btn-primary" %>
 </div>
 <div class="center2 hero-unit" >
-
+<%= image_tag("images.jpg", alt: "mše sv.", align:"right" ) %>
 <h2>Naše farnost se setkává pravidelně na mše sv.. Rozpis bohoslužeb  </h2>
 </div>
 
 <div class="center3 hero-unit" >
+<%= image_tag("MohelniceKostel.jpg", alt: "Kostel", align:"left" ) %>
 <h2>Farní chrám je místem, kde se farnost shromažďuje, aby jsme chválili naše Pána.</h2>
 </div>
 
 <div class="center4 hero-unit" >
-<strong>Společenství</strong><br>
+<%= image_tag("spolco.jpg", alt: "mše sv.", align: "right") %>
+<h2>Společenství</strong></h2>
 
 </div>
 

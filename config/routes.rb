@@ -14,6 +14,7 @@ resources :users
   match '/contact', to: 'static_pages#contact'
   match '/news',    to: 'static_pages#news'
     match '/galerie',    to: 'galleries#index'
+    match '/history',    to: 'static_pages#history'
 
   resources :galleries do
     resources :pictures do
